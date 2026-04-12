@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pila y Cola</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Estructuras de Datos</h1>
+    
+    <div class="container">
+        <div class="card">
+            <h2>Pila</h2>
+            <input type="text" id="inputPila" placeholder="Ingrese valor">
+            <div class="button-group">
+                <button class="btn-insertar" onclick="insertarPila()">Insertar</button>
+                <button class="btn-eliminar" onclick="eliminarPila()">Eliminar</button>
+            </div>
+            <div class="elementos" id="elementosPila">
+                <div class="vacio">La pila está vacía</div>
+            </div>
+        </div>
+ 
+        <div class="card">
+            <h2>Cola</h2>
+            <input type="text" id="inputCola" placeholder="Ingrese valor">
+            <div class="button-group">
+                <button class="btn-insertar" onclick="insertarCola()">Insertar</button>
+                <button class="btn-eliminar" onclick="eliminarCola()">Eliminar</button>
+            </div>
+            <div class="elementos" id="elementosCola">
+                <div class="vacio">La cola está vacía</div>
+            </div>
+        </div>
+    </div>
+ 
+    <script src="pilas.js"></script>
+    <script src="cola.js"></script>
+</body>
+</html>
